@@ -1,0 +1,73 @@
+* {
+    -main-blue: #7328F6;
+    -grey: #E3E3E3;
+}
+
+.root {
+    -fx-font: 12px "Lekton-Bold";
+    -fx-font-weight: 700;
+    -fx-padding: 0.5em;
+}
+
+.todo-list .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-fit-to-height: true;
+}
+
+.todo-item {
+    -fx-alignment: center-left;
+    -fx-spacing: 1em;
+    -fx-padding: 0.1em;
+}
+
+.todo-item .label {
+    -fx-font-size: 1.3em;
+    -fx-font-weight: 600;
+}
+
+.todo-item .check-box .box {
+    -fx-alignment: center-left;
+    -fx-background-color: transparent;
+    -fx-background-radius: 120;
+    -fx-border-color: -main-blue;
+    -fx-border-radius: 120;
+    -fx-border-width: 0.15em;
+    -fx-background-insets: 0.17em;
+    -fx-border-insets: 0.17em;
+
+    -fx-max-width: 1.7em;
+    -fx-max-height: 1.7em;
+}
+
+.todo-item .body {
+    -fx-border-color: -grey;
+    -fx-border-width: 1 0 0 0;
+    -fx-padding: 0.12em 0.3em;
+    -fx-border-insets: 0em 1em 0em 0em;
+}
+
+.todo-item:done .label .text {
+    -fx-strikethrough: true;
+}
+
+.add-item-button {
+    -fx-background-color: -main-blue;
+    -fx-background-radius: 0.33em;
+    -fx-text-fill: white;
+}
+
+.todo-creation-item {
+    -fx-alignment: center-left;
+    -fx-border-color: -grey;
+    -fx-border-width: 1 0 1 0;
+    -fx-padding: 0.2em 0em;
+}
+
+.todo-creation-item .text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-prompt-text-fill: -grey;
+    -fx-font: 1.15em "Lekton-Bold";
+    -fx-font-weight: bold;
+}
