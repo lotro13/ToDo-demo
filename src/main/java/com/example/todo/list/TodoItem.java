@@ -3,7 +3,6 @@ package com.example.todo.list;
 import com.example.todo.flow.TodoStore;
 import com.example.todo.list.state.TodoElementStatus;
 import com.example.todo.list.state.TodoListElement;
-import com.example.todo.list.state.TodoListState;
 import javafx.css.PseudoClass;
 import javafx.geometry.Pos;
 import javafx.scene.control.CheckBox;

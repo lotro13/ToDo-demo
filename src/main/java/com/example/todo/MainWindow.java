@@ -1,7 +1,6 @@
 package com.example.todo;
 
 import com.example.todo.flow.Observer;
-import com.example.todo.flow.TodoStore;
 import com.example.todo.list.TodoCreationItem;
 import com.example.todo.list.TodoList;
 import com.example.todo.list.state.TodoListState;

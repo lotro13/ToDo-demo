@@ -1,7 +1,6 @@
 package com.example.todo.list;
 
 import com.example.todo.flow.TodoStore;
-import com.example.todo.list.state.TodoListState;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
